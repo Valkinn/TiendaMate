@@ -61,14 +61,19 @@ a{
     
 }
 
+.animate__animated{
+    z-index: 2;
+}
+
 .h1banner{
     z-index: 2;
     margin-bottom: 3%;
     position: relative;
-    color: rgb(116, 155, 124);
+    color: rgb(77, 109, 83);
     font-family:'Roboto', sans-serif;
     font-size: 300%;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.479);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.878);
+    letter-spacing: 2px;
     
     
     

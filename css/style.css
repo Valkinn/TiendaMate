@@ -209,7 +209,7 @@
     }
 
     .MainTienda{
-        height: 2000px;
+        height: 100%;
         background-image: linear-gradient(360deg, rgb(228, 255, 222),rgb(125, 148, 123));
     }
 
@@ -290,7 +290,7 @@
 
                     /* CSS Nosotros */
                     .mainNosotros{
-                        height: 840px;
+                        height: 1400px;
                         background-color: rgb(98, 128, 98);
                     }
 
@@ -318,7 +318,7 @@
                                         /* CSS Contacto */
 
                                         .mainContacto{
-                                        height: 850px;
+                                        height: 1400px;
                                         background-color: rgb(98, 128, 98);
                                         }
                                         .h1Contacto{

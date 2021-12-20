@@ -1,1 +1,1 @@
-<h1> Esta es mi Tienda de Mate :D <h1/>
+<h1> Esta es mi Tienda de Mate <h1/>

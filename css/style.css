@@ -203,6 +203,9 @@
         margin-top: 3%;
         margin-bottom: 0%;
         justify-content: center;
+        align-content: center;
+        
+        
 
         
         
@@ -218,6 +221,7 @@
         box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.227);
         width: 100%;
         height: 100%;
+        
         
 
     }
@@ -396,204 +400,14 @@
                                           
                                         }
 
-/*
+
 @media screen and (max-width:600px) {
 
-/* Index max600*/
 
-
-
-/*
-
-    li{
-        padding-top: 5px;
-        padding-left: 0%;
-        text-align: center;
-        width: 19%;
-        font-size: 100%;
-        
-    }
-    
-
-
-    .header{
-        
-        width: 100%;
-        height: 500px;
-  
-        
-    
-    }
-
-    .banner{
-    
-    
-        width: 100%;
-        height: 500px;
-        
-        
-    }
-
-    .h1banner{
-        text-align: center;
-        margin-bottom: 50%;
-       
-        
-        
-        
-    }
-    
-    .h2banner{
-        margin-left: 1%;
-        margin-bottom: 2%;
-        width: 80%;
-        
-        
-    
-    }
-    
-    
-    .buttonbanner{
-        margin-left: 1%;
-        margin-bottom: 5%;
-      
-        
-        
-    
-        
-    }
-
-
-
-    .section1{
-        grid-template-columns: 100%;
-        grid-template-rows:  50% 25% 25%; 
-        grid-template-areas: "img" 
-                             "text1"
-                             "text2";
-        justify-content: space-between;
-    
-        height: 1500px;
-    }
-    
- 
-    
-    .img1{
-        justify-self: center;
-        width: 90%;
-        height: 90%;
-        margin-left: 0%;
-        margin-top: 5%;
-        box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.515);
-        
-        
-    }
-    
-    .texto1{
-        align-self: flex-start;
-        grid-area: text1;
-        margin-left: 0%;
-        margin-top: 10%;
-        margin-bottom: 0%;  
-        height: 10%;
-        width: 100%;
-        font-size: 150%;
-        font-weight:540;
-    
-    }
-    
-    
-    .texto2{
-        
-        align-self: flex-start;
-        grid-area: text2;
-        height: 10%;
-        width: 100%;
-        font-size: 150%;
-        font-weight:540;
-        }
-    
-        
-  
-    
-        
-        .section2{
-            
-            grid-template-columns: 100%;
-            grid-template-rows: 60% 30%;
-            grid-template-areas: "img" 
-                                 "text";
-
-        
-            height: 1500px;
-        }
-        
-        
-        .img2{
-            justify-self: center;
-            width: 90%;
-            height: 90%;
-            box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.515);
-            
-            
-            
-        }
-        
-        .texto3{
-            align-self: center;
-            justify-self: center;
-            height: 10%;
-            width: 70%;
-            font-size: 300%;
-            font-weight:540;
-        
-        }
-    
-        /* Tienda max600 */
-/*
-        .MainTienda{
-            height: 10000px;
-            background-image: linear-gradient(360deg, rgb(228, 255, 222),rgb(125, 148, 123));
-        }
-    
-    
-    
-    
-        .SectionTienda{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            margin: 2% 5% 5% 5%;
-            justify-content: center;
-            align-content: center;
-            
-    
-        }
-        .divTienda{
-            width: 100%;
-            height: 560px;
-            padding: 13% 1% 3% 1%;
-            
-    
-        }
-        .TiendaImg{
-            width: 100%;
-            height: 100%;
-    
-        }
-        .textDiv{
-            display: flex;
-            justify-content: center;
-            font-family: 'Roboto', sans-serif;
-            font-size: 90%;
-            
-        }
-    
-      
         /* Galeria max600 */
-/*
+
         .mainGaleria{
-            height: 5500px;
+            height: 290rem;
             
         }
 
@@ -613,8 +427,8 @@
             column-gap: 10px;
             row-gap: 10px;
             justify-content: center;
-            height: 1500px;
-            padding-top: 20px;
+            height: 2800px;
+            padding-top: 1600px;
             
             
 
@@ -629,225 +443,22 @@
 
         
 
-    /*NosotrosMax600*/
-/*
-    .mainNosotros{
-        height: 800px;
-        
-    }
-
-    .sectionNosotros{
-        display: flex;
-
-    }
-
-    .h1Nosotros{
-        text-align: center;
-        font-weight: 500;
-        font-size: 340%;
-        padding-top: 2%;
-        width: 100%;
-        height: 100%;
-    }
-    .Pnosotros{
-        font-weight: 400;
-        font-size: 200%;
-        text-align: left;
-        margin-left: 2%;
-        padding-top: 10%;
-       
-    }
-
-
-    /*ContactoMax600*/
-/*
-    .mainContacto{
-        height: 850px;
-        }
-        .h1Contacto{
-            padding-top: 50px;
-            padding-bottom: 100px;
-            text-align: center;
-            font-weight: 500;
-            font-size: 240%;
-        }
-        .formContacto{
-            text-align: center;
-            width: 40%;
-        }
-
-        .formNombre{
-            padding-top: 2%;
-            padding-bottom: 2%;
-        }
-
-        .formEmail{
-            font-size: 100%;
-            padding-bottom: 2%;
-            
-        }
-        
-        .formMensaje{
-            padding-bottom: 1%;
-        }
-
-        .formNews{
-            padding-top: 2%;
-        }
-}
-
-
-
-
-
+ 
 
 @media screen and (min-width:600px){
 
-    /* Index min600*/
-/*
-    .section1{
-        grid-template-columns: 100%;
-        grid-template-rows:  50% 25% 25%; 
-        grid-template-areas: "img" 
-                             "text1"
-                             "text2";
-        justify-content: space-between;
-    
-        height: 1500px;
-    }
-    
- 
-    
-    .img1{
-        width: 90%;
-        height: 90%;
-        justify-self: center;
-        margin-left: 0%;
-        margin-top: 1%;
-        box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.515);
-        
-        
-    }
-    
-    .texto1{
-        align-self: flex-start;
-        grid-area: text1;
-        margin-left: 0%;
-        margin-top: 10%;
-        margin-bottom: 0%;  
-        height: 10%;
-        width: 100%;
-        font-size: 150%;
-        font-weight:540;
-    
-    }
-    
-    
-    .texto2{
-        
-        align-self: flex-start;
-        grid-area: text2;
-        height: 10%;
-        width: 100%;
-        font-size: 150%;
-        font-weight:540;
-        }
-    
-        
-        .section2{
-            
-            grid-template-columns: 100%;
-            grid-template-rows: 70% 30%;
-            grid-template-areas: "img" 
-                                 "text";
 
-        
-            height: 1500px;
-        }
-        
-       
-        
-        .img2{
-            justify-self: center;
-            width: 90%;
-            height: 90%;
-            box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.515);
-            
-            
-            
-        }
-        
-        .texto3{
-            align-self: center;
-            justify-self: center;
-            height: 10%;
-            width: 70%;
-            font-size: 300%;
-            font-weight:540;
-        
-        }
-    
-    /*TiendaMin600*/
-    
-
-
-
-
-/*
-        .MainTienda{
-            height: 5800px;
-            background-image: linear-gradient(360deg, rgb(228, 255, 222),rgb(125, 148, 123));
-        }
-    
-    
-    
-    
-        .SectionTienda{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin: 1% 1% 1% 1%;
-            justify-content: center;
-            align-content: center;
-            
-    
-        }
-        .divTienda{
-            width: 40%;
-            height: 450px;
-            padding: 13% 1% 3% 1%;
-            
-    
-        }
-        .TiendaImg{
-            width: 100%;
-            height: 100%;
-    
-        }
-        .textDiv{
-            display: flex;
-            justify-content: center;
-            font-family: 'Roboto', sans-serif;
-            font-size: 90%;
-            
-        }
-    
     /*Galeria min600*/
-/*
-    .mainGaleria{
-        height: 3200px;
-        
-    }
 
     .mainGaleria{
-        height: 7000px;
+        height: 290rem;
         
     }
 
     .sectionGaleria{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 50% 50% 50% 50% 50% 50% 50% 50% 50%;
+        grid-template-rows: 40% 40% 40% 40% 40% 40% 40% 40% 40%;
         grid-template-areas: "foto1"
                              "foto2"
                              "foto3"
@@ -860,156 +471,28 @@
         column-gap: 10px;
         row-gap: 10px;
         justify-content: center;
-        height: 1500px;
-        padding-top: 20px;
+        height: 2800px;
+        padding-top: 1600px;
         
         
 
     }
 
     .imgGaleria{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         align-self: center;
         justify-self: center;
     }
 
-    
-    
-}
 
 
 @media screen and (min-width:900px){
 
-    /* Index min900*/
-/*
-    .section1{
-        grid-template-columns: 100%;
-        grid-template-rows:  70% 15% 15%; 
-        grid-template-areas: "img" 
-                             "text1"
-                             "text2";
-        justify-content: space-between;
-    
-        height: 1500px;
-    }
-    
-
-    .img1{
-        width: 90%;
-        height: 90%;
-        
-        
-    }
-    
-    .texto1{
-        align-self: flex-start;
-        grid-area: text1;
-        margin-left: 0%;
-        margin-top: 10%;
-        margin-bottom: 0%;  
-        height: 10%;
-        width: 100%;
-        font-size: 150%;
-        font-weight:540;
-    
-    }
-    
-    
-    .texto2{
-        
-        align-self: flex-start;
-        grid-area: text2;
-        height: 10%;
-        width: 100%;
-        font-size: 150%;
-        font-weight:540;
-        }
-    
-.section2{
-    display: grid;
-    grid-template-columns: 20% 60%;
-    grid-template-rows: 30% 50%;
-    grid-template-areas: "text img" 
-                         "text img";
-    justify-content: space-between;
-
-    height: 1500px;
-
-
-
-}
-
-
-
-.img2{
-    
-    width: 100%;
-    height: 100%;
-    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.515);
-    grid-area: img;
-    
-    
-    
-    
-    
-}
-
-.texto3{
-    align-self: center;
-    grid-area: text;
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;  
-    height: 10%;
-    width: 100%;
-    font-family:'Quicksand', sans-serif;
-    font-size: 300%;
-    font-weight:540;
-
-}
-
-/*TiendaMin900*/
-/*
-.MainTienda{
-    height: 5800px;
-}
-
-
-
-
-.SectionTienda{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1% 1% 1% 1%;
-    justify-content: center;
-    align-content: center;
-    
-
-}
-.divTienda{
-    width: 40%;
-    height: 500px;
-    padding: 13% 1% 3% 1%;
-    
-
-}
-.TiendaImg{
-    width: 100%;
-    height: 100%;
-
-}
-.textDiv{
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 90%;
-    
-}
+  
 
 /*GaleriaMin900*/
-/*
+
 .mainGaleria{
     height: 3200px;
     
@@ -1048,142 +531,10 @@
 
 @media screen and (min-width:1200px){
 
-    /* Index min1200*/
-/*
-    .section1{
-       
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 40% 40%;
-        grid-template-areas: "img text1" 
-                             "img text2";
-        justify-content: space-between;
-    
-        height: 1500px;
-    
-   
-    
-    }
-    
-    
-    
-    .img1{
-        
-        width: 100%;
-        height: 100%;
-        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.542);
-        grid-area: img;
-        margin-left: 3%;
-        margin-top: 3%;
-        
-        
-    }
-    
-    .texto1{
-        align-self: center;
-        grid-area: text1;
-        margin-left: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;  
-        height: 10%;
-        width: 100%;
-        font-size: 200%;
-        font-weight:540;
-    
-    }
-    
-    
-    .texto2{
-        
-        align-self: flex-start;
-        grid-area: text2;
-        height: 10%;
-        width: 100%;
-        font-size: 200%;
-        font-weight:540;
-        }
-    
-        
-    
-    .section2{
-        
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 30% 50%;
-        grid-template-areas: "text img" 
-                             "text img";
-        justify-content: space-between;
-    
-        height: 1500px;
-    
-    
-    
-    }
-    
-    
-    
-    .img2{
-        
-        width: 100%;
-        height: 100%;
-        box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.515);
-        grid-area: img;
-        
-        
-        
-        
-        
-    }
-    
-    .texto3{
-        align-self: center;
-        grid-area: text;
-        margin-left: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;  
-        height: 10%;
-        width: 100%;
-        font-size: 300%;
-        font-weight:540;
-    
-    }
-    
-    
-    
-
-
-
-
-/*TiendaMin1200*/
-
-/*
-.MainTienda{
-    height: 3600px;
-}
-
-.SectionTienda{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 2% 5% 5% 5%;
-    justify-content: space-between;
-    
-
-}
-.divTienda{
-    width: 30%;
-    height: 560px;
-    padding: 1% 1% 3% 1%;
-    
-
-}
-.TiendaImg{
-    width: 100%;
-    height: 100%;
-
-
-}
+  
 
 /*GaleriaMin1200*/
-/*
+
 .mainGaleria{
     height: 2000px;
     
@@ -1210,75 +561,3 @@
     width: 100%;
     height: 100%;
 }
-
-
-
-/*NosotrosMin1200*/
-/*
-.mainNosotros{
-    height: 800px;
-}
-
-.sectionNosotros{
-    display: flex;
-
-}
-
-.h1Nosotros{
-    text-align: center;
-    font-weight: 500;
-    font-size: 400%;
-    padding-top: 2%;
-}
-.Pnosotros{
-    font-weight: 400;
-    font-size: 200%;
-    text-align: left;
-    margin-left: 2%;
-    padding-top: 2%;
-   
-}
-
-/*ContactoMin1200*/
-/*
-.mainContacto{
-    height: 850px;
-    background-color: rgb(98, 128, 98);
-    }
-    .h1Contacto{
-        padding-top: 50px;
-        padding-bottom: 100px;
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 500;
-        font-size: 400%;
-    }
-    .formContacto{
-        text-align: center;
-        padding-left: 30%;
-        width: 40%;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    }
-
-    .formNombre{
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .formEmail{
-        font-size: 100%;
-        padding-bottom: 2%;
-        
-    }
-    
-    .formMensaje{
-        padding-bottom: 1%;
-    }
-
-    .formNews{
-        padding-top: 2%;
-    }
-
-
-}
-

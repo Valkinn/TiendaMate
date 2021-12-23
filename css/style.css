@@ -1,563 +1,204 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    
-}
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%; }
 
+.nav {
+  background-color: #486155;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.479); }
 
-.nav{
-    background-color: rgb(72, 97, 85);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.479);
-}
-
-.main{
-    background-image: linear-gradient(180deg, rgb(60,78,54),rgb(149,173,130),rgb(43,56,39));
- 
-    
-}
-
-.header{
-    border-bottom: 5px solid rgba(10, 31, 15, 0.768);
-    width: 100%;
-    height: 940px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: flex-end;
-    
-
-}
-
-.banner{
-    
-    
+.header {
+  border-bottom: 5px solid rgba(10, 31, 15, 0.768);
+  width: 100%;
+  height: 940px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-end; }
+  .header .banner {
     width: 100%;
     height: 940px;
     position: absolute;
-    z-index: 1;
-    
-}
-
-
-.h1banner{
+    z-index: 1; }
+  .header .h1banner {
     z-index: 2;
     margin-bottom: 1%;
     margin-left: 1%;
     position: relative;
-    color: rgb(149, 181, 155);
-    font-family:'Roboto', sans-serif;
+    color: #95b59b;
+    font-family: 'Roboto', sans-serif;
     font-size: 300%;
     border-bottom: 2px solid rgba(255, 255, 255, 0.878);
     letter-spacing: 2px;
-    width: 370px;
-    
-    
-    
-}
-
-.h2banner{
+    width: 370px; }
+  .header .h2banner {
     z-index: 2;
     padding-bottom: 1%;
     margin-left: 1%;
     position: relative;
-    color: rgb(255, 255, 255);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 140%;
     font-weight: lighter;
-    width: 80%;
-    
-    
-
-}
-
-
-.buttonbanner{
+    width: 80%; }
+  .header .buttonbanner {
     z-index: 2;
     width: 150px;
     margin-bottom: 3%;
     margin-left: 1%;
     position: relative;
     font-size: 130%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
-    font-weight:450;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: black;
+    font-weight: 450;
     line-height: 1;
     border: 0;
     padding: 16px 30px;
     border-radius: 30px;
-    background-color: rgb(250, 250, 250);
-    cursor: pointer;
-    
-    
+    background-color: #fafafa;
+    cursor: pointer; }
 
-    
-}
-
-.SectionHome{
+.main {
+  background-image: linear-gradient(180deg, #3c4e36, #95ad82, #2b3827); }
+  .main .SectionHome {
     padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.slide{
-    
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.542);
-    
-}
-
-.slide img{
-    height: 900px;
-    
-    
-}
-
-
-
-.img1{
-    
-    width: 100%;
-    height: 100%;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.542);
-    grid-area: img;
-    margin-left: 3%;
-    margin-top: 3%;
-    
-    
-}
-
-.texto1{
-    align-self: center;
-    grid-area: text1;
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;  
-    height: 10%;
-    width: 100%;
-    font-family:'Quicksand', sans-serif;
-    font-size: 200%;
-    font-weight:540;
-
-}
-
-
-.texto2{
-    
-    align-self: flex-start;
-    grid-area: text2;
-    height: 10%;
-    width: 100%;
-    font-family:'Quicksand', sans-serif;
-    font-size: 200%;
-    font-weight:540;
-    }
-
-    
-
-
-
-
-
+    padding-bottom: 100px; }
+  .main .slide {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.542); }
+    .main .slide img {
+      height: 900px; }
 
 /* CSS TIENDA */
+.h1Tienda {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 10px;
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  background-color: #7d947b;
+  margin-bottom: 0%; }
 
-    .h1Tienda{
-        text-align: center;
-        font-family: 'Quicksand', sans-serif;
-        padding-top: 10px;
-        font-size: 120px;
-        font-weight: 400;
-        background-color: rgb(125, 148, 123);
-        margin-bottom: 0%;
-
-    }
-
-    .MainTienda{
-        height: 100%;
-        background-image: linear-gradient(360deg, rgb(228, 255, 222),rgb(125, 148, 123));
-    }
-
-    .h2Tienda{
-        margin-left: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 400;
-    }
-
-    .FormTienda{
-        display: inline-block;
-        margin-left: 10px;
-        font-family: 'Roboto', sans-serif;
-        padding-top: 1px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid rgba(4, 4, 4, 0.398);
-
-
-    }
-
-
-
-
-
-    .DivContainer{
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: 3%;
-        margin-bottom: 0%;
-        justify-content: center;
-        align-content: center;
-        
-        
-
-        
-        
-
-    }
-    .divTienda{
-        
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: 0%;
-        margin-bottom: 10%;
-        padding: 1% 1% 1% 1%;
-        box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.227);
-        width: 100%;
-        height: 100%;
-        
-        
-
-    }
-
-    .divTienda:hover{
-
+.MainTienda {
+  height: 100%;
+  background-image: linear-gradient(360deg, #e4ffde, #7d947b); }
+  .MainTienda .h2Tienda {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400; }
+  .MainTienda .FormTienda {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(4, 4, 4, 0.398); }
+  .MainTienda .DivContainer {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    justify-content: center;
+    align-items: center; }
+    .MainTienda .DivContainer .divTienda {
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin-bottom: 10%;
+      padding: 1% 1% 1% 1%;
+      box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.227);
+      width: 100%;
+      height: 100%; }
+      .MainTienda .DivContainer .divTienda:hover {
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
         transition: all 1s;
-        transform: scale(120%);
- 
-    }
+        transform: scale(120%); }
 
-
-
-        /* CSS GALERÍA */
-        .mainGaleria{
-            height: 100rem;
-            width: 100%;
-            background-color: rgb(67, 84, 72);
-            
-        }
-
-        .sectionGaleria{
-            display: grid;
-            grid-template-columns: 25% 25% 25%;
-            grid-template-rows: 25% 25% 25%;
-            grid-template-areas: "foto1 foto2 foto3"
-                                 "foto4 foto5 foto6"
-                                 "foto7 foto8 foto9";
-            column-gap: 10px;
-            row-gap: 10px;
-            justify-content: space-evenly;
-            align-content: space-evenly;
-
-            width: 100%;
-            height: 100%;
-            padding-top: 20px;
-            
-            
-
-        }
-
-        .imgGaleria{
-            width: 100%;
-            height: 100%;
-            box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.227);
-            border: 1px solid beige;
-        }
-
-        .imgGaleria:hover{
-            box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
-            transition: all 1s;
-            transform: scale(120%);
-
-        }
-
-                    /* CSS Nosotros */
-                    .mainNosotros{
-                        height: 50rem;
-                        background-color: rgb(67, 84, 72);
-                    }
-
-                    .headerNosotros{
-                        width: 100%; 
-                        height: 630px;
-                    }
-
-                    .BannerNosotros{
-                        width: 100%;
-                        height: 100%;
-                        border-bottom: 3px solid rgba(61, 59, 59, 0.59);
-                    }
-
-                    .sectionNosotros{
-                        
-                        padding-bottom: 200px;
-
-                    }
-
-                    .h1Nosotros{
-                        text-align: center;
-                        font-family: 'Quicksand', sans-serif;
-                        font-weight: 100;
-                        font-size: 450%;
-                        padding-top: 2%;
-                        letter-spacing: 4px;
-                        color: rgb(255, 255, 255);
-                    }
-                    .Pnosotros{
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        font-weight: 100;
-                        font-size: 200%;
-                        text-align: left;
-                        margin-left: 2%;
-                        padding-top: 2%;
-                        color: white;
-                       
-                    }
-                                        /* CSS Contacto */
-
-                                        .mainContacto{
-                                        height: 1400px;
-                                        background-color: rgb(67, 84, 72);
-                                        }
-                                        .h1Contacto{
-                                            padding-top: 50px;
-                                            padding-bottom: 100px;
-                                            text-align: center;
-                                            font-family: 'Quicksand', sans-serif;
-                                            font-weight: 100;
-                                            font-size: 400%;
-                                            color: white;
-
-                                        }
-                                        .formContacto{
-                                            text-align: center;
-                                            padding-left: 30%;
-                                            width: 40%;
-                                            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-                                            
-                                        }
-
-                                        .formNombre{
-                                            padding-top: 2%;
-                                            padding-bottom: 2%;
-                                            
-                                        }
-
-                                        .formEmail{
-                                            font-size: 100%;
-                                            padding-bottom: 2%;
-                                           
-                                            
-                                        }
-                                        
-                                        .formMensaje{
-                                            padding-bottom: 1%;
-                                        }
-
-                                        .formNews{
-                                            padding-top: 2%;
-                                        }
-
-                                        /*FOOTER*/
-
-                                        .footer{
-                                            background-color: rgb(81, 110, 94);
-                                            border-top: 3px solid rgba(0, 0, 0, 0.315);
-                                            display:flex;
-                                            flex-direction: row;
-                                            align-items: center;
-                                            justify-content: space-evenly;
-                                            width: 100%;
-                                            height: 110px;
-                                        
-                                        
-                                        }
-                                        
-                                        .divredes{
-                                            width: 3%;
-                                            height: 3%;
-                                        }
-                                        
-                                        
-                                        .redes{
-                                            width: 40px;
-                                            height: 40px;
-                                           
-                                          
-                                        }
-                                        
-                                        .redeslink{
-                                            width: 40px;
-                                            height: 40px;
-                                           
-                                          
-                                        }
-
-
-@media screen and (max-width:600px) {
-
-
-        /* Galeria max600 */
-
-        .mainGaleria{
-            height: 290rem;
-            
-        }
-
-        .sectionGaleria{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 40% 40% 40% 40% 40% 40% 40% 40% 40%;
-            grid-template-areas: "foto1"
-                                 "foto2"
-                                 "foto3"
-                                 "foto4"
-                                 "foto5"
-                                 "foto6"
-                                 "foto7"
-                                 "foto8"
-                                 "foto9";
-            column-gap: 10px;
-            row-gap: 10px;
-            justify-content: center;
-            height: 2800px;
-            padding-top: 1600px;
-            
-            
-
-        }
-
-        .imgGaleria{
-            width: 90%;
-            height: 90%;
-            align-self: center;
-            justify-self: center;
-        }
-
-        
-
- 
-
-@media screen and (min-width:600px){
-
-
-    /*Galeria min600*/
-
-    .mainGaleria{
-        height: 290rem;
-        
-    }
-
-    .sectionGaleria{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 40% 40% 40% 40% 40% 40% 40% 40% 40%;
-        grid-template-areas: "foto1"
-                             "foto2"
-                             "foto3"
-                             "foto4"
-                             "foto5"
-                             "foto6"
-                             "foto7"
-                             "foto8"
-                             "foto9";
-        column-gap: 10px;
-        row-gap: 10px;
-        justify-content: center;
-        height: 2800px;
-        padding-top: 1600px;
-        
-        
-
-    }
-
-    .imgGaleria{
-        width: 90%;
-        height: 90%;
-        align-self: center;
-        justify-self: center;
-    }
-
-
-
-@media screen and (min-width:900px){
-
-  
-
-/*GaleriaMin900*/
-
-.mainGaleria{
-    height: 3200px;
-    
-}
-
-.sectionGaleria{
+/* CSS GALERÍA */
+.mainGaleria {
+  height: 100rem;
+  width: 100%;
+  background-color: #435448; }
+  .mainGaleria .sectionGaleria {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 40% 40% 40% 40%;
-    grid-template-areas: "foto1""foto2"
-                         "foto3""foto4"
-                         "foto5""foto6"
-                         "foto7""foto8"
-                         "foto9";
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9";
     column-gap: 10px;
     row-gap: 10px;
-    justify-content: center;
-    height: 1500px;
-    padding-top: 20px;
-    
-    
-
-}
-
-.imgGaleria{
-    width: 95%;
-    height: 95%;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-
-}
-
-
-@media screen and (min-width:1200px){
-
-  
-
-/*GaleriaMin1200*/
-
-.mainGaleria{
-    height: 2000px;
-    
-}
-
-.sectionGaleria{
-    display: grid;
-    grid-template-columns: 30% 33% 33%;
-    grid-template-rows: 40% 40% 40%;
-    grid-template-areas: "foto1 foto2 foto3"
-                         "foto4 foto5 foto6"
-                         "foto7 foto8 foto9";
-    column-gap: 10px;
-    row-gap: 10px;
-    justify-content: center;
-    height: 1500px;
-    padding-top: 20px;
-    
-    
-
-}
-
-.imgGaleria{
+    justify-content: space-evenly;
+    align-content: space-evenly;
     width: 100%;
     height: 100%;
-}
+    padding-top: 20px; }
+    .mainGaleria .sectionGaleria .imgGaleria {
+      width: 100%;
+      height: 100%;
+      box-shadow: 8px 3px 3px rgba(0, 0, 0, 0.227);
+      border: 1px solid beige; }
+      .mainGaleria .sectionGaleria .imgGaleria:hover {
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
+        transition: all 1s;
+        transform: scale(120%); }
+
+/* CSS Nosotros */
+.headerNosotros {
+  width: 100%;
+  height: 630px; }
+  .headerNosotros .BannerNosotros {
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid rgba(61, 59, 59, 0.59); }
+
+.mainNosotros {
+  height: 50rem;
+  background-color: #435448; }
+  .mainNosotros .sectionNosotros {
+    padding-bottom: 200px; }
+    .mainNosotros .sectionNosotros .h1Nosotros {
+      text-align: center;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 100;
+      font-size: 450%;
+      padding-top: 2%;
+      letter-spacing: 4px;
+      color: white; }
+    .mainNosotros .sectionNosotros .Pnosotros {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      font-weight: 100;
+      font-size: 200%;
+      text-align: left;
+      margin-left: 2%;
+      padding-top: 2%;
+      color: white; }
+
+/* CSS Contacto */
+.mainContacto {
+  height: 1400px;
+  background-color: #435448; }
+  .mainContacto .h1Contacto {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    font-size: 400%;
+    color: white; }
+
+/*FOOTER*/
+.footer {
+  background-color: #516e5e;
+  border-top: 3px solid rgba(0, 0, 0, 0.315);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 110px; }
+  .footer .redes {
+    width: 40px;
+    height: 40px; }
+  .footer .redeslink {
+    width: 40px;
+    height: 40px; }

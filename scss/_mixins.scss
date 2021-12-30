@@ -1,0 +1,11 @@
+@mixin Titulos($Fuente , $TamLetra ){
+
+    text-align: center;
+    font-family: $Fuente;
+    font-weight: 100;
+    font-size: $TamLetra;
+    padding-top: 2%;
+    letter-spacing: 4px;
+    color: white;
+    
+}

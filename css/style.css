@@ -111,7 +111,7 @@
       .MainTienda .DivContainer .divTienda:hover {
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
         transition: all 1s;
-        transform: scale(120%); }
+        transform: scale(110%); }
 
 /* CSS GALERÍA */
 .mainGaleria {
@@ -138,7 +138,7 @@
       .mainGaleria .sectionGaleria .imgGaleria:hover {
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
         transition: all 1s;
-        transform: scale(120%); }
+        transform: scale(110%); }
 
 /* CSS Nosotros */
 .headerNosotros {
@@ -273,7 +273,7 @@
         .mainGaleria .sectionGaleria .imgGaleria:hover {
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
           transition: all 1s;
-          transform: scale(100%); }
+          transform: scale(110%); }
   /*NOSOTROS MAX600*/
   .headerNosotros {
     width: 100%;
@@ -505,7 +505,7 @@
         .mainGaleria .sectionGaleria .imgGaleria:hover {
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
           transition: all 1s;
-          transform: scale(120%); }
+          transform: scale(105%); }
   /*NOSOTROS MIN1400*/
   .headerNosotros {
     width: 100%;

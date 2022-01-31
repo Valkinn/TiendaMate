@@ -58,7 +58,7 @@
     cursor: pointer; }
 
 .main {
-  background-image: linear-gradient(180deg, #3c4e36, #95ad82, #2b3827); }
+  background-image: linear-gradient(180deg, #486155, #2b3827); }
   .main .SectionHome {
     padding-top: 100px;
     padding-bottom: 100px; }
@@ -87,11 +87,13 @@
     font-weight: 400; }
   .MainTienda .FormTienda {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     font-family: 'Roboto', sans-serif;
     padding-top: 1px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(4, 4, 4, 0.398); }
+    .MainTienda .FormTienda .btnAceptar {
+      margin-left: 10px; }
   .MainTienda .DivContainer {
     margin-left: 3%;
     margin-right: 0%;
@@ -173,7 +175,7 @@
 
 /* CSS Contacto */
 .mainContacto {
-  height: 1400px;
+  height: 83vh;
   background-color: #435448; }
   .mainContacto .h1Contacto {
     text-align: center;
@@ -472,7 +474,7 @@
       background-color: #fafafa;
       cursor: pointer; }
   .main {
-    background-image: linear-gradient(180deg, #3c4e36, #95ad82, #2b3827); }
+    background-image: linear-gradient(180deg, #486155, #2b3827); }
     .main .SectionHome {
       padding-top: 100px;
       padding-bottom: 100px; }
@@ -537,7 +539,7 @@
         color: white; }
   /*CONTACTO MIN1400*/
   .mainContacto {
-    height: 1400px;
+    height: 83vh;
     background-color: #435448; }
     .mainContacto .h1Contacto {
       text-align: center;
